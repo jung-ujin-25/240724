@@ -1,5 +1,5 @@
 import streamlit as st
-st.tilte('나의 첫 번째 웹 서비스!')
+st.title('나의 첫 번째 웹 서비스!')
 name = st.text_input('이름을 입력해주세요 : ')
 menu = st.selectbox('좋아하는 음식을 선택하세요!', ['초코라떼', '쉬림프 피자', '불고기 버거'])
 if st. button('인사말 생성') :
